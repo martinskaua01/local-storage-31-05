@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+ font-family: courier;
+}
+
+header{
+    background-color: #0011ff;
+    color :-moz-only-whitespace;
+    font-family: tahoma;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #001aff;
+    color: #c8b8e5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+footer li{
+    list-style: none;
+}
+
+nav{
+    background-color: #1100ff;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+nav ul{
+display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+}
+li a{
+    color: rgb(255, 250, 250);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+li a:hover{
+
+    background-color: #c300ff;
+}
+
+.container{
+width: 70vw;
+margin: auto;
+border: 2px solid #ffffff;
+padding: 0.5rem;
+border-radius: 1rem;
+margin-bottom: 2rem;
+display : flex;
+flex-direction:column;
+justify-items: center;
+justify-content: center;
+align-content: center;
+}
+
+.container h2{
+    background-color: #062bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container input{
+width: 62vw;
+margin-bottom: 0.5rem;
+padding: 1rem;
+border-radius: 1rem;
+outline: none;
+border: 2px solid #001aff;
+}
+
+.container input.haver{
+background-color: #2600ff;
+}
+
+.container button{
+margin-bottom: 1rem;
+padding: 0.5rem;
+width: 69vw;
+margin: auto;
+background-color: #39054a;
+color: #fff;
+border-radius: 1rem;
+font-weight: bold;
+cursor: pointer;
+}
+
+.container button:haver{
+    background-color: #e7e7e7;
+}
+
+.list{
+    width: 100%;
+}
+
+.list table{
+    width: 100%;
+}
+
+.list table th{
+    background-color: #f4f4ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2px;
+    border: 2px solid #0400ff ;
+    border-radius: 5px;
+}
